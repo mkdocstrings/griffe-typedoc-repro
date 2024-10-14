@@ -1,0 +1,41 @@
+site_name: SCP SDK
+site_url: http://localhost:8000
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: Inter
+  palette:
+    primary: custom
+    accent: custom
+extra_css:
+  - stylesheets/extra.css
+
+
+nav:
+  - index.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings:
+      default_handler: typescript
+  - panzoom:
+      full_screen: true
+  - typedoc:
+      source: '../sdk/src/index.ts'
+      output_dir: 'typedoc'
+      options: './typedoc/typedoc.json'
+      tsconfig: '../sdk/tsconfig.json'
+      name: 'SCP SDK'
+      title_link: "/" # optional, default: '/'

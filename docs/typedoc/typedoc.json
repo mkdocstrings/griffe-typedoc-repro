@@ -1,0 +1,7 @@
+{
+    "plugin": ["typedoc-material-theme"],
+    "themeColor": "#ffffff",
+    "customCss": "assets/custom.css",
+    "customFooterHtml": "<b>Dstny</b>",
+    "readme": "README.md"
+}

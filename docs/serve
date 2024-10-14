@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export PATH=$PATH:$PWD/node_modules/.bin
+.venv/bin/python -m mkdocs serve

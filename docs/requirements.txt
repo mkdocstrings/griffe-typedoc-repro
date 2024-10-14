@@ -1,0 +1,8 @@
+mkdocs==1.6.1
+mkdocs-autorefs==1.2.0
+mkdocs-material==9.5.34
+mkdocs-panzoom-plugin==0.0.8
+mkdocs-typedoc==1.0.4
+mkdocstrings==0.26.1
+mkdocstrings-typescript @ git+ssh://git@github.com/pawamoy-insiders/mkdocstrings-typescript.git@b1e5dd4d535a94c113dc513eb954ab52cf800724
+griffe-typedoc @ git+ssh://git@github.com/pawamoy-insiders/griffe-typedoc.git@2b28c682999fa353e43f46aac7e7741421c58a37
